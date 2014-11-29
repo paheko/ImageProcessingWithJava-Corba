@@ -1,0 +1,10 @@
+module multiagentes {
+	interface Imagenes {
+		  void leer (in string imagen);
+		  void BlancoNegro (in string imagen);
+		  void AumentarBrillo (in string imagen);
+		  void QuitarBrillo (in string imagen);
+		  
+		 
+	};
+};
